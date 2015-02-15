@@ -1,0 +1,25 @@
+//
+// Headings
+//
+
+%title__border {
+  border-style: solid;
+  border-color: #000;
+  border-width: 0;
+}
+
+.title__border--top {
+  @extend %title__border;
+  border-top-width: 1px;
+}
+
+.title__border--bottom {
+  @extend %title__border;
+  border-bottom-width: 1px;
+}
+
+.title__sub {
+  @extend %margin-bottom;
+  display: block;
+  margin-top: -29px;
+}

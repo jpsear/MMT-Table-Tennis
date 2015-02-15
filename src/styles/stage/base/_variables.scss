@@ -1,0 +1,40 @@
+//
+// Variables
+//
+
+
+// Base
+  $base-font-size:      16px          !default;
+  $base-line-height:    1.4           !default;
+  $base-margin-bottom:  24px          !default;
+  $base-font-family:    sans-serif    !default;
+  $base-font-color:     #000          !default;
+  $base-border-radius:  4px           !default;
+  $base-input-height:   35px          !default;
+
+
+// On or off
+  $use-border-box:      true          !default;
+  $use-font-smoothing:  true          !default;
+
+
+// Breakpoints
+  $tiny:                360px         !default;
+  $small:               768px         !default;
+  $medium:              992px         !default;
+  $large:               1200px        !default;
+
+
+// Font sizes
+  $size-alpha:          36px          !default; // h1
+  $size-bravo:          30px          !default; // h2
+  $size-charlie:        24px          !default; // h3
+  $size-delta:          20px          !default; // h4
+  $size-echo:           16px          !default; // h5
+  $size-foxtrot:        14px          !default; // h6
+  $size-golf:           12px          !default;
+  $size-hotel:          10px          !default;
+
+
+// Components
+  $base-button-color:   #ddd         !default;

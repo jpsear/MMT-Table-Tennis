@@ -1,0 +1,49 @@
+//
+// Buttons
+//
+
+%button-base {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  cursor: pointer;
+  text-align: center;
+  padding: 6px 13px;
+  text-decoration: none;
+  color: #000;
+
+  &:hover {
+    background-color: darken($base-button-color, 10%);
+  }
+}
+
+.btn {
+  @extend %button-base;
+  background-color: $base-button-color;
+}
+
+.btn--bigger {
+  @extend .btn;
+  padding: 12px 26px;
+  font-size: em(18px);
+}
+
+.btn--biggest {
+  @extend .btn;
+  padding: 18px 39px;
+  font-size: em(20px);
+}
+
+.btn--smaller {
+  @extend .btn;
+  padding: 6px 7px;
+  font-size: em(14px);
+}
+
+.btn--smallest {
+  @extend .btn;
+  padding: 3px 4px;
+  font-size: em(12px);
+}

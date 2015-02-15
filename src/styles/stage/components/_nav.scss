@@ -1,0 +1,16 @@
+//
+// Nav
+//
+
+
+.nav {
+  list-style: none;
+
+  li, a {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+  }
+}

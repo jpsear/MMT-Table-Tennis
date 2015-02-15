@@ -1,0 +1,47 @@
+//
+// Typography
+//
+
+
+h1, .size-alpha {
+  font-size: em($size-alpha);
+}
+
+h2, .size-bravo {
+  font-size: em($size-bravo);
+}
+
+h3, .size-charlie {
+  font-size: em($size-charlie);
+}
+
+h4, .size-delta {
+  font-size: em($size-delta);
+}
+
+h5, .size-echo {
+  font-size: em($size-echo);
+}
+
+h6, .size-foxtrot {
+  font-size: em($size-foxtrot);
+}
+
+.size-golf {
+  font-size: em($size-golf);
+}
+
+.size-hotel {
+  font-size: em($size-hotel);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p {
+  @extend %margin-bottom;
+}

@@ -1,0 +1,15 @@
+//
+// Code
+//
+
+
+pre {
+  @extend %margin-bottom;
+  overflow: auto;
+
+  mark {
+    background: none;
+    border-bottom: 1px solid;
+    color: inherit;
+  }
+}

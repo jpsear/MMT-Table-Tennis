@@ -1,0 +1,83 @@
+//
+// Helper (most of these nabbed from inuit — couldn't fault em)
+//
+
+.float--left {
+  float: left !important;
+}
+
+.float--right {
+  float: right !important;
+}
+
+.float--none {
+  float: none !important;
+}
+
+.text--left {
+  text-align: left !important;
+}
+
+.text--right {
+  text-align: right !important;
+}
+
+.text--center {
+  text-align: center !important;
+}
+
+.img--right {
+  float: right;
+  margin-bottom: $base-margin-bottom;
+  margin-left: $base-margin-bottom;
+}
+
+.img--left {
+  float: left;
+  margin-right: $base-margin-bottom;
+  margin-bottom: $base-margin-bottom;
+}
+
+.img--center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: $base-margin-bottom;
+}
+
+.push { margin: $base-margin-bottom !important; }
+.push--top { margin-top: $base-margin-bottom !important; }
+.push--right { margin-right: $base-margin-bottom !important; }
+.push--bottom { margin-bottom: $base-margin-bottom !important; }
+.push--left { margin-left: $base-margin-bottom !important; }
+
+@media(max-width: $small) {
+  .push-small { margin: $base-margin-bottom !important; }
+  .push-small--top { margin-top: $base-margin-bottom !important; }
+  .push-small--right { margin-right: $base-margin-bottom !important; }
+  .push-small--bottom { margin-bottom: $base-margin-bottom !important; }
+  .push-small--left { margin-left: $base-margin-bottom !important; }
+}
+
+.flush { margin: 0 !important; }
+.flush--top { margin-top: 0 !important; }
+.flush--right { margin-right: 0 !important; }
+.flush--bottom { margin-bottom: 0 !important; }
+.flush--left { margin-left: 0 !important; }
+
+.pad { padding: $base-margin-bottom !important; }
+.pad--top { padding-top: $base-margin-bottom !important; }
+.pad--right { padding-right: $base-margin-bottom !important; }
+.pad--bottom { padding-bottom: $base-margin-bottom !important; }
+.pad--left { padding-left: $base-margin-bottom !important; }
+
+.hard { padding: 0 !important; }
+.hard--top { padding-top: 0 !important; }
+.hard--right { padding-right: 0 !important; }
+.hard--bottom { padding-bottom: 0 !important; }
+.hard--left { padding-left: 0 !important; }
+
+.muted {
+  opacity: 0.4 !important;
+  filter: alpha(opacity = 40) !important;
+}

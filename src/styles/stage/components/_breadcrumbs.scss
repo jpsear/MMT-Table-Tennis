@@ -1,0 +1,24 @@
+//
+// Breadcrumbs
+//
+
+
+.breadcrumb {
+  @extend %cf;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+  }
+
+  a {
+  }
+}
+
+.breadcrumb > li + li:before{
+    content:"\00BB" "\00A0";
+}

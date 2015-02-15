@@ -1,0 +1,58 @@
+//
+// Forms
+//
+
+
+// Use this to style the look of all form fields, so things are consistent
+%input-ui {
+  border: 1px solid #000;
+  font-size: 16px;
+  font-family: inherit;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+// Use this to style the shared sizes of inputs
+%input-sizing {
+  width: 100%;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.input--text {
+  @extend %input-ui;
+  @extend %input-sizing;
+  height: $base-input-height;
+}
+
+textarea {
+  padding-top: 7px;
+  padding-top: 7px;
+  @extend %input-ui;
+  @extend %input-sizing;
+}
+
+label,
+.label {
+  display: block;
+}
+
+label,
+input,
+textarea,
+button,
+select {
+  cursor: pointer;
+}
+
+fieldset {
+  @extend %margin-bottom;
+}
+
+.lt-ie9 {
+  .input--text {
+    line-height: $base-input-height;
+  }
+}

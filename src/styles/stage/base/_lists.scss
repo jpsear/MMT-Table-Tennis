@@ -1,0 +1,22 @@
+//
+// Lists
+//
+
+
+ul, ol, dd {
+  margin-left: 24px;
+}
+
+nav {
+  ul, ol {
+    margin-left: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+}
+
+ul, ol, dl {
+  @extend %margin-bottom;
+}

@@ -1,0 +1,18 @@
+//
+// Images
+//
+
+
+// Images responsive by deafult
+img {
+  max-width: 100%;
+  font-style: italic;
+}
+
+
+// For a non-responsive image, just specify the width & height inline
+// I love this – all credit to Harry Roberts
+img[width],
+img[height]{
+    max-width: none;
+}

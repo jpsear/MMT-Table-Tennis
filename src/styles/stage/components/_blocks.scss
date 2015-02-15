@@ -1,0 +1,28 @@
+//
+// Blocks
+//
+
+.block {
+  @extend %cf;
+}
+
+.block__head {
+  @extend %cf;
+  padding: 3px 20px;
+}
+
+.block__title {
+  margin-bottom: 0;
+}
+
+.block__content {
+  padding: 15px;
+
+  &:nth-child(even) {
+
+  }
+}
+
+.block__foot {
+  padding: 15px;
+}

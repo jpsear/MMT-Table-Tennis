@@ -1,0 +1,35 @@
+//
+// Records
+//
+
+
+.record {
+
+}
+
+.record__img {
+    display: block;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.c-outer {
+  background: #ddd;
+
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+  }
+}
+
+.c-inner {
+  display: inline-block;
+  vertical-align: middle;
+  background: #fff;
+}

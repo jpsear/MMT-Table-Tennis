@@ -1,0 +1,27 @@
+//
+// Pagination
+//
+
+
+.pagination {
+  list-style: none;
+  letter-spacing: 1px;
+  word-spacing: -5px;
+
+  li {
+    letter-spacing:normal;
+    word-spacing:normal;
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+  }
+  a {
+    text-align: center;
+  }
+}
+
+.rule--dotted{
+    border-bottom-style:dotted;
+}
