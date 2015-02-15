@@ -11,6 +11,10 @@
 <body>
 
   <div class=loader>Loading</div>
+
+  <div class=logo>
+    <img src=assets/img/let.png>
+  </div>
   <league-table id=leaderboard class=★></league-table>
 
   <script id=leaderboard_template type=text/html>
@@ -18,7 +22,7 @@
       <thead>
         <tr>
           <th>Pos</th>
-          <th>Player</th>
+          <th class=player>Player</th>
           <th>Pld</th>
           <th>W</th>
           <th>L</th>
@@ -29,7 +33,7 @@
       {{#rows}}
         <tr>
           <td>{{position}}</td>
-          <td>{{player}}</td>
+          <td class=player>{{player}}</td>
           <td>{{played}}</td>
           <td>{{wins}}</td>
           <td>{{losses}}</td>
