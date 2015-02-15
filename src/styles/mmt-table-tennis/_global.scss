@@ -3,6 +3,42 @@
 //
 
 
+html {
+    height: 100%;
+}
+
 body {
+    background-image: url('/assets/img/ace.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 2rem 10rem;
+    font-family: 'News Cycle', sans-serif;
+}
+
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.89);
+}
+
+header {
     
+}
+
+#leaderboard {
+    table {
+        background-color: rgba(255, 255, 255, 0.91);
+    }
+}
+
+th, td {
+    padding: .7rem 1.3rem;
+}
+
+th {
+    text-transform: uppercase;
 }
