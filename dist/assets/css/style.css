@@ -677,7 +677,11 @@ body {
   height: 100%;
   width: 100%;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.89);
+  text-align: center;
+  font-size: 3.4em;
+  color: #BB4949;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0.94);
 }
 
 .logo {
@@ -700,6 +704,10 @@ th, td {
 
 th {
   text-transform: uppercase;
+}
+
+td.player {
+  font-size: 1.2em;
 }
 
 td:not(.player), th:not(.player) {
