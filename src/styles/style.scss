@@ -1,6 +1,3 @@
-body {
-}
-
 @keyframes rotate-Loader {
   100% {
     transform: rotate(-360deg);
@@ -46,9 +43,8 @@ body {
   width: 100px;
   -webkit-backface-visibility: hidden;
   -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
-}
   
-.Loader::before { 
+  &:Loader::before { 
     animation: rotateSpinner-Loader 13s infinite linear;
     background: rgba(255, 255, 255, 0.5);
     content: '';
@@ -60,7 +56,7 @@ body {
     transform-origin: 50px 50px;
   }
   
-  .Loader::after {
+  &:Loader::after {
     animation: dot-Loader 1.5s infinite;
     background: #e003ef;
     border-radius: 50%;
@@ -72,3 +68,4 @@ body {
     top: 5px;
     width: 90px;
   }
+}
