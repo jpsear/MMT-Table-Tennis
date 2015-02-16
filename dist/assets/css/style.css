@@ -663,6 +663,7 @@ body {
   background-attachment: fixed;
   background-size: 100%;
   font-family: 'News Cycle', sans-serif;
+  color: #444;
 }
 @media (min-width: 768px) {
   body {
@@ -697,11 +698,14 @@ body {
 #leaderboard table {
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.26);
   border-radius: 2px;
-  background-color: rgba(255, 255, 255, 0.91);
+  background-color: rgba(255, 255, 255, 0.96);
 }
 
 th, td {
   padding: .7rem 1.3rem;
+}
+th:first-of-type, th:last-of-type, td:first-of-type, td:last-of-type {
+  background: rgba(0, 0, 0, 0.04);
 }
 
 th {
@@ -710,6 +714,7 @@ th {
 
 td.player {
   font-size: 1.2em;
+  font-weight: 700;
 }
 
 td:not(.player), th:not(.player) {

@@ -12,6 +12,7 @@ body {
     background-attachment: fixed;
     background-size: 100%;
     font-family: 'News Cycle', sans-serif;
+    color: #444;
 
     @media(min-width: $small) {
         padding: 2rem 10rem;
@@ -52,12 +53,17 @@ header {
     table {
         box-shadow: 0 0 7px rgba(0, 0, 0, 0.26);
         border-radius: 2px;
-        background-color: rgba(255, 255, 255, 0.91);
+        background-color: rgba(255, 255, 255, 0.96);
     }
 }
 
 th, td {
     padding: .7rem 1.3rem;
+
+    &:first-of-type,
+    &:last-of-type {
+        background: rgba(0, 0, 0, 0.04);
+    }
 }
 
 th {
@@ -67,6 +73,7 @@ th {
 td {
     &.player {
         font-size: 1.2em;
+        font-weight: 700;
     }
 }
 
