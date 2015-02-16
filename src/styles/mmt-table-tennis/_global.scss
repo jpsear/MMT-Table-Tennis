@@ -114,3 +114,41 @@ thead {
         display: block;
     }
 }
+
+.rules-list {
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: block;
+        position: relative;
+        font-weight: 700;
+        font-size: 1.4rem;
+        margin-bottom: .9rem;
+        margin-left: 1.4rem;
+
+        &:before {
+            content: "★";
+            position: absolute;
+            left: -25px;
+            font-size: .9em;
+            color: #ee2e24;
+        }
+    }
+}
+
+.rules {
+    background: rgba(255, 255, 255, 0.87);
+    padding: 1.3rem 2.5rem;
+    border-radius: 2px;
+}
+
+.rules-link {
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    float: right;
+    text-decoration: none;
+    padding-top: 2px;
+}
