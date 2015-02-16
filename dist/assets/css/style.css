@@ -688,6 +688,7 @@ body {
 .logo {
   background-color: rgba(0, 0, 0, 0.75);
   padding: 1.2em 1.2em .7em;
+  border-radius: 2px 2px 0 0;
 }
 .logo img {
   width: 271px;
@@ -713,4 +714,12 @@ td.player {
 
 td:not(.player), th:not(.player) {
   text-align: center;
+}
+
+tbody > tr:nth-of-type(odd) {
+  background-color: rgba(205, 11, 11, 0.06);
+}
+
+thead th {
+  border-bottom: 2px solid rgba(209, 106, 106, 0.42);
 }
