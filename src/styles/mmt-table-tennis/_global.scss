@@ -8,13 +8,14 @@ html {
 }
 
 body {
-    background-image: url('/assets/img/ace.jpg');
+    background-color: #000;
     background-attachment: fixed;
     background-size: 100%;
     font-family: 'News Cycle', sans-serif;
 
     @media(min-width: $small) {
         padding: 2rem 10rem;
+        background-image: url('/assets/img/ace.jpg');
     }
 }
 
