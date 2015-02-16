@@ -9,40 +9,42 @@
   <title>MMT Table Tennis League</title>
 </head>
 <body>
+  <main class=league>
+    <div class=loader>Just fetchin' the league...</div>
 
-  <div class=loader>Just fetchin' the league...</div>
+    <div class=logo>
+      <img src=assets/img/let.png>
+      <a href=/rules.html class=rules-link>Rules</a>
+    </div>
+    <div id=leaderboard class=★ />
 
-  <div class=logo>
-    <img src=assets/img/let.png>
-  </div>
-  <div id=leaderboard class=★ />
-
-  <script id=leaderboard_template type=text/html>
-    <table class=table>
-      <thead>
-        <tr>
-          <th class=pos>Pos</th>
-          <th class=player>Player</th>
-          <th class=pld>Pld</th>
-          <th class=w>W</th>
-          <th class=l>L</th>
-          <th class=diff>Diff</th>
-          <th class=pts>Pts</th>
-        </tr>
-      </thead>
-      {{#rows}}
-        <tr>
-          <td class=pos>{{position}}</td>
-          <td class=player>{{player}}</td>
-          <td class=pld>{{played}}</td>
-          <td class=w>{{wins}}</td>
-          <td class=l>{{losses}}</td>
-          <td class=diff>{{diff}}</td>
-          <td class=pts>{{points}}</td>
-        </tr>
-      {{/rows}}
-    </table>
-  </script>
+    <script id=leaderboard_template type=text/html>
+      <table class=table>
+        <thead>
+          <tr>
+            <th class=pos>Pos</th>
+            <th class=player>Player</th>
+            <th class=pld>Pld</th>
+            <th class=w>W</th>
+            <th class=l>L</th>
+            <th class=diff>Diff</th>
+            <th class=pts>Pts</th>
+          </tr>
+        </thead>
+        {{#rows}}
+          <tr>
+            <td class=pos>{{position}}</td>
+            <td class=player>{{player}}</td>
+            <td class=pld>{{played}}</td>
+            <td class=w>{{wins}}</td>
+            <td class=l>{{losses}}</td>
+            <td class=diff>{{diff}}</td>
+            <td class=pts>{{points}}</td>
+          </tr>
+        {{/rows}}
+      </table>
+    </script>
+  </main>
 
   <script src=//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js></script>
   <script src=assets/js/app.js></script>
