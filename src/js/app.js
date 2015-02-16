@@ -18,5 +18,11 @@ $(document).ready(function() {
 
     Sheetsee.makeTable(tableOptions)
     $('.loader').hide();
+
+    var topPlayer = $('#leaderboard').find('tbody tr:first .player'),
+        html = topPlayer.html();
+        topPlayer.html('<a target="blank" title="groovy baby, yeeeaaahhh" href="http://media.giphy.com/media/14nrGscYvd6wMw/giphy.gif">'+ html + '</a>');
+
+    console.log('Easter eggs:\n1. Kate Middleton\n2. tbc...')
   }
 });

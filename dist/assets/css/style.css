@@ -717,6 +717,10 @@ td.player {
   font-weight: 700;
   line-height: 0;
 }
+td.player a {
+  text-decoration: none;
+  color: inherit;
+}
 
 td:not(.player), th:not(.player) {
   text-align: center;
