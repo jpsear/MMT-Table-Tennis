@@ -724,6 +724,14 @@ td.player a {
 
 td:not(.player), th:not(.player) {
   text-align: center;
+  padding-left: .4rem;
+  padding-right: .4rem;
+}
+@media (min-width: 768px) {
+  td:not(.player), th:not(.player) {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
 }
 
 tbody > tr:nth-of-type(odd) {
@@ -732,4 +740,13 @@ tbody > tr:nth-of-type(odd) {
 
 thead th {
   border-bottom: 2px solid rgba(209, 106, 106, 0.42);
+}
+
+.diff {
+  display: none;
+}
+@media (min-width: 768px) {
+  .diff {
+    display: block;
+  }
 }
