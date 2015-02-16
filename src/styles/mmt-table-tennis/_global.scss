@@ -16,6 +16,7 @@ body {
     @media(min-width: $small) {
         padding: 2rem 10rem;
         background-image: url('/assets/img/ace.jpg');
+
     }
 }
 
@@ -69,5 +70,5 @@ td {
 }
 
 td:not(.player), th:not(.player) {
-    text-align: center;
+    text-align:center;
 }
