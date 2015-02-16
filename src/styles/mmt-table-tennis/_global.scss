@@ -14,7 +14,7 @@ body {
     font-family: 'News Cycle', sans-serif;
     color: #444;
 
-    @media(min-width: $small) {
+    @media(min-width: $medium) {
         padding: 2rem 10rem;
         background-image: url('/assets/img/ace.jpg');
 
